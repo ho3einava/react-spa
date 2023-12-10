@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 
-const EditPost = ({post}) => {
+const EditPost = ({ post }) => {
     const [title, setTitle] = useState("");
     const [body, setBody] = useState("");
     const [loading , setLoading] = useState(false)
@@ -44,7 +44,7 @@ const EditPost = ({post}) => {
     useEffect(() => {
       setTitle(post.title)
       setBody(post.body)
-    })
+    },[post])
 return (
     <div>
      <div className="container m-5">
