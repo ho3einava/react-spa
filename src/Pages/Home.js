@@ -6,7 +6,8 @@ const Home = () => {
       <div className="container m-5">
         <div className="row mt-5">
           <div className="col-md-6">
-            <h3>Home Page</h3>
+            <h3>Home Page - React Project</h3>
+            
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
